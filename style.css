@@ -1,0 +1,631 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height:100%;
+    overflow-x:hidden ;
+}
+
+.main{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #CFD5D5;
+}
+
+.nav{
+display: flex;
+height: 60px;
+align-items: center;
+justify-content: space-between;
+padding: 50px;
+/* border-bottom: 2px solid black; */
+}
+
+.center{
+display: flex;
+align-items: center;
+gap: 30px;
+text-transform: capitalize;
+
+}
+
+.center p:hover{
+    border-bottom: 4px solid crimson;
+}
+
+.center p{
+    font-size: 2vw;
+}
+
+.nav img{
+    width: 80px;
+    mix-blend-mode: multiply;
+}
+
+ i{
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+
+
+.content{
+    width:100%;
+    height:calc(100% - 100px);
+    display: flex;
+}
+
+.left{
+    width:35%;
+    height: 100%;
+    padding: 100px 70px;
+    /* background-color: black; */
+}
+.right{
+    width: 65%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+h5{
+    font-size: 30px;
+    opacity: 0.6;
+    white-space: nowrap;
+text-transform: capitalize;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+span{
+    color: red;
+}
+
+p{
+    max-width: 400px;
+    font-size: 20px;
+}
+
+.btn1{
+    margin-left: 100px;
+    width: 150px;
+    position: relative;
+    margin-top: 30px;
+    padding:20px 10px;
+    border-radius: 0px 10px 10px 30px;
+    color: #fcf8f8;
+    border:none;
+    overflow: hidden;
+    font-size: 20px;
+    background-color:black;
+    transition: all ease 0.5s;
+
+}
+
+.btn1:hover{
+transform: scale(1.1);
+
+}
+
+.card:hover{
+    transform: rotatey(20deg);
+    opacity: 0.6;
+    }
+
+
+.container{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    margin-top: 150px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.card{
+    width: 30%;
+    height: 100%;
+    margin-right: 20px;
+    position: relative;
+    display:inline-block;
+    background-color: aliceblue;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brand {
+    position: absolute;
+    bottom: 42px;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+ color: #fff;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+ 
+}
+.collection{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+ color: #fff;
+    background-color: rgb(195, 192, 192);
+    padding: 10px;
+    font-size: 20px;
+ 
+}
+
+/* page2 */
+
+.page2{
+    width: 100%;
+    height: 100%;
+    background-color: #CFD5D5;
+    overflow: hidden;
+    /* background-color: rgb(52, 178, 203); */
+}
+.content-2{
+    text-align: center;
+    margin: auto;
+}
+.content-2 h6{
+    font-size: 2vw;
+    opacity: 0.7;
+}
+
+.content-2 h1{
+    font-size: 4vw;
+   
+}
+
+.content-2 p{
+    /* border: 2px solid blue; */
+    margin-left: 550px;
+    max-width: 500px;
+}
+
+.page2 h3{
+    /* border: 2px solid blue; */
+    font-size: 2.5vw;
+    padding-left: 90px;
+    font-family: 900;
+}
+
+.img-cont{
+    width: 100%;
+    height: 70%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont1{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    /* background-color: rgb(32, 113, 185); */
+}
+
+.cont1 img{
+    padding: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cont2 button{
+    width: 200px;
+    font-size: 1.5vw;
+    padding:10px 20px;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    bottom:100px;
+    left: 230px;
+    
+}
+
+
+.cont1 button{
+    width: 200px;
+    font-size: 1.5vw;
+    padding:10px 20px;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    bottom:100px;
+    left: 230px;
+    
+}
+
+.cont2{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(225, 44, 183); */
+}
+
+.cont2 img{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ .page3 h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+    padding-left: 90px;
+ }
+
+ .video{
+    width: 90%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 100px;
+    border-radius: 20px;
+    opacity: 0.8;
+ }
+
+ .page3{
+    width: 100%;
+    height: 100%;
+    background-color: #CFD5D5;
+}
+
+ .content-3{
+    text-align: center;
+ }
+
+ .content-3 h1{
+    font-size: 5vw;
+ }
+
+ .content-3 p{
+    margin-left: 550px;
+    white-space: nowrap;
+    }
+.buttons{
+    margin-top: 20px;
+}
+    .content-3 a{
+        background-color: black;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 1.5vw;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+
+.page4{
+    width: 100%;
+    height: 100%;
+        background-color: #CFD5D5;
+    }
+
+.page4 h1{
+    padding-left: 90px;
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+.page4 img {
+    width: 90%;
+    height: 57%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 82px;
+    border-radius: 10px;
+}
+.page4-content h5{
+    font-size: 2.0vw;
+}
+.page4-content{
+        text-align: center;
+}
+    .page4-content h2 {
+    font-size: 5vw;
+ }
+
+ .page4-content p{
+    margin-left: 330px;
+    white-space: nowrap;
+    }
+
+    .page4-content  a{
+    margin-top: 30px;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.5vw;
+    margin-right: 20px;
+    border-radius: 10px;
+    }
+ .buttons-4{
+    margin-top: 33px;
+ }
+
+ .page5{
+    width: 100%;
+    height: 100%;
+    background-color: #CFD5D5;
+   
+ }
+
+ .page5-container {
+    width: 85%;
+    margin-left: 82px;
+    height: 88%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+}
+ .page5 h1{
+    padding-left: 50px;
+    font-size: 2.5vw;
+    margin-left: 82px;
+ }
+
+ .page5 p{
+    padding: 10px;
+    font-size: 2.0vw;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin-top: 100%;
+    border-radius: 20px;
+ }
+  .box{
+width: 30%;
+height: 100%;
+/* background-color: aquamarine; */
+ }
+
+
+ .card1{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/4d00886e-980c-4e26-8e78-9b08615eda96/jordan.png);
+    animation: helo 7s  0.1s infinite;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+ .card2{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/228adfd4-3a2a-4f6c-b798-1f94330b8f38/jordan.png) ;
+animation: helo1 7s  0.1s infinite;
+background-size: cover;
+background-position: center;
+}
+ .card3{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/e9e24aa0-e6f4-4aa9-aadc-67739c70bb77/jordan.png);
+    animation: helo2 7s  0.1s infinite;
+    background-size: cover;
+    background-position: center;
+}
+
+
+ @keyframes helo{
+   0%{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/4d00886e-980c-4e26-8e78-9b08615eda96/jordan.png);
+   }
+   
+30%{
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/82358380-8d28-4239-bdd4-39585594df57/sportswear-city-utility-high-waisted-french-terry-trousers-lw0NND.png);
+}
+70%{
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3fbb1758-515e-416a-9aa9-8bba540247e2/dri-fit-one-swoosh-tank-top-WhJZGQ.png);
+}
+
+100%{
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/57425785-0fed-4bf6-a8e7-08dcb5bb6c33/air-t-shirt-x9gnlB.png);
+}
+    
+ }
+
+ @keyframes helo1{
+   
+    
+     0%{
+         background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/228adfd4-3a2a-4f6c-b798-1f94330b8f38/jordan.png) ;   
+     }
+ 
+     30%{
+        background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/26dd42ea-4c98-455e-ab53-e74db2fb1de2/waffle-debut-shoes-JRWJk7.png);
+    }
+    70%{
+        background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/85d5638e-da57-4b40-8279-fc9b33621053/air-max-systm-shoes-LWh69T.png);
+    }
+    
+    100%{
+        background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e6da41fa-1be4-4ce5-b89c-22be4f1f02d4/air-force-1-07-shoes-WrLlWX.png);
+    }
+       
+
+     
+  }
+
+
+  @keyframes helo2{
+  
+     0%{
+         background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/e9e24aa0-e6f4-4aa9-aadc-67739c70bb77/jordan.png);
+  }
+     
+  30%{
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b9576831-2070-4939-b958-9f6bb5cd9462/sportswear-tech-fleece-re-imagined-oversized-short-sleeve-sweatshirt.png);
+}
+70%{
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/01be12c8-801c-4c09-abb8-8d2920aa1f6f/windrunner-repel-running-jacket-fw4NBt.png);
+}
+
+100%{
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e5cc0090-b1d3-47f3-ad5b-11cf7f924324/sportswear-tech-fleece-og-hoodie-sweatshirt-jmcD8w.png);
+}
+   
+  }
+
+
+  .page6 h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+    padding-left: 90px;
+ }
+
+ .video1{
+    margin-left: 82px;
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+    object-position: center;
+    /* margin: 0 100px; */
+    border-radius: 20px;
+    opacity: 0.8;
+ }
+
+ .page6{
+    width: 100%;
+    height: 100%;
+    background-color: #CFD5D5;
+}
+
+ .content-6{
+    text-align: center;
+ }
+
+ .content-6 h1{
+    font-size: 5vw;
+ }
+
+ .content-6 p{
+    margin-left: 550px;
+    white-space: nowrap;
+    margin-bottom: 30px;
+    }
+    .content-6 a{
+        background-color: black;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 1.5vw;;
+        border-radius: 10px;
+    }
+.page7{
+        width: 100%;
+        height: 100%;
+        background-color:#CFD5D5;
+       
+     }
+
+     .page7 h1{
+        padding-left: 50px;
+        font-size: 2.5vw;
+        margin-left: 82px;
+        padding-top: 50px;
+     }
+
+     .page7 .container1{
+        width: 95%;
+        height: 70%;
+        /* background-color: #d51fcf; */
+        white-space: nowrap;
+        overflow-x:auto;
+        margin-left: 82px;
+     }
+
+     .page7 .container1::-webkit-scrollbar{
+        display: none;
+    }
+    
+.boxes{
+    width: 35%;
+    height: 100%;
+    background-color: #CFD5D5;
+    display: inline-block;
+    position: relative;
+   
+}
+
+.boxes img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxes p{
+    position: absolute;
+    bottom: 20px;
+    width: 150px;
+    padding: 10px 20px;
+    background-color: #080808;
+    color: #f9fdfd;
+    border-radius: 20px;
+    left: 40%;
+    text-align: center;
+}
+     .page8{
+        width: 100%;
+        height: 70%;
+        background-color: #040b0b;
+       
+     }
+     .fottercontainer{
+        display: flex;
+        align-items: start;
+        max-width: 90%;
+        color: #ffff;
+        justify-content: space-between;
+        padding-top: 100px;
+     }
+
+     .fott1 h3{
+        font-size: 20px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        font-weight: 900;
+      
+     }
+
+     .fott2 h3{
+        font-size: 18px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        font-weight: 500;
+        opacity: 0.7;
+      
+     }
+
+
+     .fott3 h3{
+        font-size: 18px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        font-weight: 500;
+        opacity: 0.7;
+      
+     }
+
+     .get{
+        font-size: 20px;
+        padding-left: 50px;
+        padding-bottom: 20px;
+     }
